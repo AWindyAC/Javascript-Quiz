@@ -1,0 +1,19 @@
+.highScoreList
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.highScoreList li
+{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -20px;
+}
+
+.score-header
+{
+    display: flex;
+    justify-content: center;
+}

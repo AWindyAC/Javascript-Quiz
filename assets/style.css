@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Poppins:wght@200;300;400;500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #0d1016;
+    /* background-image: url('./90s-cartoons.jpg');*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', 'sans-serif';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.area
+{
+    flex-direction: column;
+}
+
+.quiz-container
+{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 0 30px 5px rgba(100, 100, 100, 0.1);
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header
+{
+    padding: 4rem;
+}
+
+h2
+{
+    padding: 1rem;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+ul li
+{
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label
+{
+    cursor: pointer;
+}
+
+#submit
+{
+    background-color: #03cae4;
+    color: white;
+    border: none;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+}
+
+#submit:hover
+{
+    background-color: #125e69;
+}
+
+#submit:focus
+{
+    outline: none;
+    background-color: green;
+}
+
+#start
+{
+    background-color: #03cae4;
+    color: white;
+    border: none;
+    display: block;
+    width: 20vh;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 1.3rem;
+    border-radius: 20px;
+
+}
+
+.js_timer
+{
+
+    text-align: center;
+}
+
+.timer
+{
+    font-family: sans-serif;
+    display: inline-block;
+    justify-content: center;
+    margin: 2vh;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background-color: white;
+    height: 60px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+
+.timer__part
+{
+    font-size: 36px;
+    font-weight: bold;
+}
