@@ -94,6 +94,7 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
+![Javascript Quiz](https://user-images.githubusercontent.com/123840237/235564755-5eeb2e8c-cb53-4087-9e73-4820c76e89d2.JPG)
 
 ---
 
